@@ -1,3 +1,9 @@
+/*
+ * Name : Apoorva S Kulkarni
+ * Description : To find sum of cubes of the digits of a number
+ * Date : 13/3/2021
+ */
+
 import java.util.*;
 public class CubeSum {
 
@@ -13,7 +19,7 @@ public class CubeSum {
 		int sum = 0, rem;
 		while(num!=0) {
 			rem = num%10;
-			sum = sum + (rem*rem*rem);
+			sum = (int) (sum + Math.pow(rem, 3));
 			num = num/10;
 		}
 		System.out.println(" "+sum);

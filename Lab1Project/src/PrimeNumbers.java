@@ -1,3 +1,9 @@
+/*
+ * Name : Apoorva S Kulkarni
+ * Description : To print prime numbers up to the entered number
+ * Date : 13/3/2021
+ */
+
 import java.util.Scanner;
 
 public class PrimeNumbers {

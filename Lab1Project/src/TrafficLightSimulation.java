@@ -1,3 +1,9 @@
+/*
+ * Name : Apoorva S Kulkarni
+ * Description : To simulate the traffic light
+ * Date : 13/3/2021
+ */
+
 import java.util.Scanner;
 
 public class TrafficLightSimulation {
